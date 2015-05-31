@@ -1,15 +1,15 @@
 name: Dave Kissane
-detach:  false
-port:    5000
-host:    127.0.0.1
-url: http://localhost:5000/
-permalink: /:year/:month/:day/:title.html
-
-markdown: redcarpet
-
-mapping:
-    provider: google_static
-    zoom: 15
-    dimensions:
-        width: 500
-        height: 300
+#detach:  false
+#port:    5000
+#host:    127.0.0.1
+#url: http://localhost:5000/
+#permalink: /:year/:month/:day/:title.html
+#
+#markdown: redcarpet
+#
+#mapping:
+#    provider: google_static
+#    zoom: 15
+#    dimensions:
+#        width: 500
+#        height: 300
