@@ -2,7 +2,7 @@
 layout: post
 title:  Harmsden Counselling
 tags:   blogging
-image:  /assets/iacp-accredited-logo.png
+img:  /assets/iacp-accredited-logo.png
 ---
 Looking for counselling can be a big and frightening step to take.
 I think it's brave of anyone who admits they need help.
