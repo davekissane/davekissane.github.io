@@ -1,8 +1,8 @@
-name: Dave Kissane
+name: Stephen Fortune
 url:  http://davekissane.github.io
 
+permalink: /:year/:month/:day/:title.html
 
-permalink: pretty
 markdown: redcarpet
 
 mapping:
