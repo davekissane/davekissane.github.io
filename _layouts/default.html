@@ -1,27 +1,50 @@
 <!DOCTYPE HTML>
+<!--http://www.bootply.com/98314 helpful for nav understanding-->
 <html lang="en" prefix="og: http://ogp.me/ns#">
     {% include head.html %}
 
-    <nav class="nvabar navbar-default">
-        <div class="container">
+    <!--<nav class="navbar navbar-header">-->
+        <!--<div class="container">-->
         <!--<header>-->
-            <!--<a href="/">-->
-                <!--<img src="/assets/images/logo.png" style="padding-top: 30px; z-index: 0">-->
-            <!--</a>-->
-            <!--<h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>-->
-            <ul class="nav navbar-nav">
-                <li><a href="{{site.url}}/directions/" title="Archived articles">Directions</a></li>
-                <li class="pull-right"><a href="{{site.url}}/about/">About me</a></li>
-            </ul>
+            <!--&lt;!&ndash;<a href="/">&ndash;&gt;-->
+                <!--&lt;!&ndash;<img src="/assets/images/logo.png" style="padding-top: 30px; z-index: 0">&ndash;&gt;-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;<h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>&ndash;&gt;-->
+            <!--<ul class="navigation">-->
+                <!--<li><a href="{{site.url}}/directions/" title="Archived articles">Directions</a></li>-->
+                <!--<li><a href="{{site.url}}/about/">About me</a></li>-->
+            <!--</ul>-->
         <!--</header>-->
-        </div>
-    </nav>
+        <!--</div>-->
+    <!--</nav>-->
+    <div id="header" class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <!--uncomment below if it is desired to have that menu thing in mobile mode-->
+            <!--<div class="navbar-header">-->
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+            <!--</div>-->
+            <a class="navbar-brand" href="{{site.url}}">Harmsden Counselling</a>
+            <!--<div class="navbar-collapse collapse"> --> <!--if it is desired to have that menu thing in mobile mode-->
+            <div class="navbar">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="{{site.url}}/directions/" title="directions">Directions</a></li>
+                    <li><a href="{{site.url}}/about/">About me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-        <body>
+    <body>
     {{ content }}
 
         <footer>
-            <a href="mailto:davekissane85@gmail.com">email</a>
+            <div class="container contact">
+            <a class="text-muted" href="mailto:davekissane85@gmail.com">email</a>
+            </div>
         </footer>
 
     {% include foot.html %}
