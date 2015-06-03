@@ -2,16 +2,21 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
     {% include head.html %}
 
-    <header>
-        <a href="/">
-            <img src="/assets/images/logo.png" style="padding-top: 30px; z-index: 0">
-        </a>
-        <!--<h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>-->
-        <ul class="navigation">
-            <li><a href="{{site.url}}/directions/" title="Archived articles">Directions</a></li>
-            <li><a href="{{site.url}}/about/">About me</a></li>
-        </ul>
-    </header>
+    <nav class="nvabar navbar-default">
+        <div class="container">
+        <!--<header>-->
+            <!--<a href="/">-->
+                <!--<img src="/assets/images/logo.png" style="padding-top: 30px; z-index: 0">-->
+            <!--</a>-->
+            <!--<h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>-->
+            <ul class="nav navbar-nav">
+                <li><a href="{{site.url}}/directions/" title="Archived articles">Directions</a></li>
+                <li class="pull-right"><a href="{{site.url}}/about/">About me</a></li>
+            </ul>
+        <!--</header>-->
+        </div>
+    </nav>
+
         <body>
     {{ content }}
 
